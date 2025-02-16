@@ -11,8 +11,12 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: 'https://backend-developer-assessment-chat-ai.onrender.com/', // Deployed URL
       },
+      {
+        url: 'http://localhost:5000', // Local URL
+      },
+      
     ],
     components: {
       securitySchemes: {
